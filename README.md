@@ -31,16 +31,16 @@ docker build -t CIC-Chatbot . && docker run -p 8000:8000 -ti CIC-Chatbot:latest
 
 ## Reflections over things that could be improved
 ### Data
-- Currently the data is stored as `.json` files in nearly every folder. This could easily be fixed with having a NoSQL db such as mongoDB
-- All of the inputs from any given user is currently only available during the session of the interaction. This is obviously not expected if a Bewhaos wants user statistics intent hits based on user inputs. Saving those inputs in abovementioned MongoDB would benefit the service in a lot of ways.
+- Currently, the data is stored as `.json` files in nearly every folder. This could easily be fixed by having a NoSQL DB such as MongoDB.
+- All of the inputs from any given user are currently only available during the interaction session. This is obviously not expected if a Bewhaos wants user statistics intent hits based on user inputs. Saving those inputs in the abovementioned MongoDB would benefit the service in many ways.
 
 ### Methods
-- When working with Chatbots, there are way more sophisticated approaches that would make it much easier to scale the content of the chatbot. Nowadays chatbots are trained using Natural Language Processing and even though I didn't go down that route, some of the principals could be beneficial for a project such as this. One of the things could be utilizing would be lemmatization and stemming of words (e.g. by utilizing a library such as this: [Lemmatizer for Danish](https://github.com/sorenlind/lemmy). 
-- The approach of calculating the nearest location of the store relative to the user didn't go as planned, as I ran out of time before making the logic for dialogue flows. Therefore, unless Swagger is used, the location will always be based in Aarhus. In addition, the method for calculating the _great-circle distance_ is faulty in the sense that it doesn't account for the distance traveled by e.g. car.
+- When working with Chatbots, there are way more sophisticated approaches that would make it much easier to scale the content of the chatbot. Nowadays, chatbots are trained using Natural Language Processing, and even though I didn't go down that route, some of the principles could be beneficial for a project such as this. One of the things that could be utilized would be lemmatization and stemming of words (e.g., by using a library such as this: [Lemmatizer for Danish](https://github.com/sorenlind/lemmy). 
+- The approach of calculating the nearest location of the store relative to the user didn't go as planned, as I ran out of time before making the logic for dialogue flows. Therefore, unless Swagger is used, the location will always be based in Aarhus. In addition, the method for calculating the great-circle distance is faulty in the sense that it doesn't account for the distance traveled by, e.g., car.
 
 ### Scaling
-- Increasing the dialogue options as fast as I did, it became harder in the long run fulfilling the user stories, as other intents would seem to have a higher accuracy than before increasing the amount of possible dialogue. Proper testing classes for each important user story could have assisted in at least keeping the obvious questions aligned with the correct response. 
-- However, the strict need for Use-case testing could  largely be avoided if Natural Language Processing were utilized, as there are a wide range of paths one can take to ensure the model doesn't underfit or overfit. Which, in contrary, is not as straight forward when going down the road with  simple binary classification, as used in this project.    
+- Increasing the dialogue options as fast as I did, it became harder, in the long run, fulfilling the user stories, as other intents would seem to have higher accuracy than before, increasing the amount of possible dialogue. Proper testing classes for each important user story could have assisted in at least keeping the obvious questions aligned with the correct response.
+- However, the strict need for Use-case testing could largely be avoided if Natural Language Processing were utilized, as there is a wide range of paths one can take to ensure the model doesn't underfit or overfit. Which, on the contrary, is not as straightforward when going down the road with simple binary classification, as used in this project.  
 
 
 
