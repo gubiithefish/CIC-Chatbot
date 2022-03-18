@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="flex-1 p:2 sm:p-6 justify-between flex flex-col h-screen">
+         <div class="flex sm:items-center justify-between py-3 border-b-2 border-gray-200">
+            <div class="relative flex items-center space-x-4">
+               <div class="flex flex-col leading-tight">
+                  <div class="text-2xl mt-1 flex items-center">
+                     <span class="text-gray-700 mr-3">Chatbot</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="messages" class="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch">
+            <div style="hidden:true">
+               <div id="bot-msg" class="chat-message">
+                  <div class="flex items-end">
+                     <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
+                        <div><span class="px-4 py-2 rounded-lg inline-block rounded-bl-none bg-gray-300 text-gray-600">Velkommen til chatbotten! 🎉 :-)<br>Skriv din besked i tekstfeltet nedenfor og tryk enter for at sende den [←┘]. Du kan også skrive "overblik" for at se, hvad du kan stille af spørgsmål</span></div>
+                     </div>
+                     <img src="https://redbarnet.dk/media/7698/chatbot.jpg" alt="My profile" class="w-8 h-8 rounded-full order-1">
+                  </div>
+               </div>
+            </div>
+            <div class="hidden">
+               <div id="me-msg" class="chat-message">
+                  <div class="flex items-end justify-end">
+                     <div class="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-1 items-end">
+                        <div><span class="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">{input}</span></div>
+                     </div>
+                     <img src="https://cdn1.iconfinder.com/data/icons/user-interface-apps-line-1/48/apps_cute-01-12-512.png" alt="My profile" class="w-8 h-8 rounded-full order-2">
+                  </div>
+               </div>
+            </div>
+            <!-- Conversation container -->
+            <div id="conversation"></div>
+            <div class="border-t-2 border-gray-200 px-4 pt-4 mb-2 sm:mb-0">
+               <div class="relative flex">
+                  <input type="text" id="inputBox" placeholder="Tryk enter for at sende din besked" class="w-full focus:outline-none focus:placeholder-gray-400 text-gray-600 placeholder-gray-600 pl-4 bg-gray-200 rounded-md py-3">
+                  <div id="attach_media" class="absolute right-0 items-center inset-y-0 hidden sm:flex">
+                     <button type="button" class="inline-flex items-center justify-center rounded-full h-12 w-12 transition duration-500 ease-in-out text-gray-500 hover:bg-gray-300 focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 text-gray-600">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"></path>
+                        </svg>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>
+

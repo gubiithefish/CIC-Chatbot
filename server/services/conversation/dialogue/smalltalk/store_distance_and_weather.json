@@ -1,0 +1,31 @@
+[
+   {
+      "tag":"Distance",
+      "patterns":[
+         "Hvor ligger den nærmeste butik?",
+         "hvor ligger den tætteste butik",
+         "nærmeste butik",
+         "butik",
+         "afstand",
+         "fysisk",
+         "indkøb"
+      ],
+      "responses":[
+         "Lige i nærheden:-)"
+      ]
+   },
+   {
+      "tag":"Weather",
+      "patterns":[
+         "Hvad er temperaturen udenfor",
+         "Hvad er temperaturen udenfor",
+         "udenfor",
+         "vejr",
+         "varmt",
+         "koldt"
+      ],
+      "responses":[
+         "Dejligt varmt, hva:-)"
+      ]
+   }
+]

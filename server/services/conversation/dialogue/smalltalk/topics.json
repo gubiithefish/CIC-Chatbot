@@ -1,0 +1,22 @@
+{
+   "tag":"Overblik",
+   "patterns":[
+      "Hvilke emner dækker du?",
+      "Giv mig et overblik over hvad du kan hjælpe med?",
+      "jeg har et andet spørgsmål",
+      "hvad kan du hjælpe mig med?",
+      "hvad kan du svare på?",
+      "oversigt",
+      "Hvad kan du?",
+      "Overview",
+      "Overblik",
+      "spørgsmål",
+      "områder",
+      "emner",
+      "svar",
+      "hjælp"
+   ],
+   "responses":[
+      "Du kan stille spørgsmål som:\n- Hvilke type hammere kan i anbefale?\n- Hvilke typer skruetrækkere kan i anbefale?\n- Hvad bruger man en Phillips skruetrækker til?\n- Hvad er en torx skruetrækker?\n- Kan man uploade filer til dig?\n- Fortæl en joke\n- Hvad laver du?\n- Hvor ligger den nærmeste butik?\n- hvad er temperaturen udenfor?"
+   ]
+}

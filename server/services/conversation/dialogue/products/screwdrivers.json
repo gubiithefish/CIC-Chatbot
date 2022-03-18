@@ -1,0 +1,78 @@
+[
+   {
+      "tag":"skruetrækker - generel",
+      "patterns":[
+         "bitsskruetrækker",
+         "kombiskruetrækker",
+         "krydskærvsskruetrækker",
+         "skraldeskruetrækker",
+         "skruehovedet",
+         "skruemaskiner",
+         "skruestrækkersæt",
+         "skruetrækker",
+         "skruetrækkere",
+         "skruetrækkeren",
+         "skruetrækkersæt",
+         "skruetrækkertype",
+         "skrueudtrækker",
+         "skrueudtrækkersæt",
+         "topskruetrækker"
+      ],
+      "responses":[
+         "Vi har desværre udsolgt af alle vores skruetrækkertyper. Men du er velkommen til at stille spørgsmål til de forskellige typer, såsom en ligekærv, philips, pozidriv eller torx:-)"
+      ]
+   },
+   {
+      "tag":"skruetrækker - Ligekærv",
+      "patterns":[
+         "Ligekærv",
+         "Ligekærve",
+         "Ligekærverne"
+      ],
+      "responses":[
+         "Ligekærven er den ældste kærvtype og er meget brugt, for eksempel når skruehovedet er synligt, da kærvens enkle udseende er mere æstetisk end andre kærve. Dog giver kærvens konstruktion stor risiko for udskridning og ustabil iskruning, og derfor bør ligekærven ikke bruges ved arbejdsopgaver, som kræver stabilitet og høj sikkerhed."
+      ]
+   },
+   {
+      "tag":"skruetrækker - Phillips",
+      "patterns":[
+         "Phillips",
+         "PH",
+         "PH1",
+         "PH2",
+         "PH3",
+         "Stjernekærv",
+         "Krydskærv"
+      ],
+      "responses":[
+         "Phillips-kærven, der også er kendt som stjerne- eller krydskærv, er også en meget almen kærvtype. Den findes i flere størrelser, hvor de mest almindelige er PH1, PH2 og PH3. Krydsformen giver en god kraftoverførsel fra skruetrækker eller –maskine, men den koniske form giver også øget risiko for udskridning, som dog for det meste kan undgås ved at presse hårdt til under iskruningen."
+      ]
+   },
+   {
+      "tag":"skruetrækker - Pozidriv",
+      "patterns":[
+         "Pozidriv",
+         "PZ1",
+         "PZ2",
+         "PZ3"
+      ],
+      "responses":[
+         "Pozidriv-kærven er en meget alment udbredt kærv, som adskiller sig fra Phillips-kærven ved at være dybere samt at have et sekundært kryds. Konstruktionen gør risikoen for udskridning mindre end ved Phillips-kærven, men mindsker samtidig retningsstabiliteten. Det dybere kryds gør det muligt at skrue i en let skrå vinkel, hvilket giver større fleksibilitet. Kærvens mest almindelige størrelser er PZ1, PZ2 og PZ3.\n\n Vær opmærksom på, at Pozidriv og Phillips ikke må forveksles. De to kærve ligner hinanden, men er alligevel meget forskellige. Bruger du den forkerte skruetrækker eller bit, risikerer du udskridning, hvilket kan beskadige både skrue og skruetrækker/bit."
+      ]
+   },
+   {
+      "tag":"skruetrækker - torx",
+      "patterns":[
+         "TORX",
+         "TX",
+         "TX15",
+         "TX20",
+         "TX25",
+         "TX30",
+         "TX40"
+      ],
+      "responses":[
+         "Den sekskantede TORX-kærv er den letteste kærv at bruge. Der er ikke brug for pres for at sikre en solid iskruning, og risikoen for udskridning er meget lav. Derfor er TORX-kærven en meget anvendelig kærv, som sikrer et godt resultat. Risikoen for fejlmonteringer, hvor arbejdet skal laves om, mindskes, og derfor er kærven meget velegnet til for eksempel byggeprojekter og andre konstruktioner, hvor stabilitet, sikkerhed og ensartethed er i højsædet. TORX-kærven findes i mange størrelser, hvoraf de mest almindelige er TX10, TX15, TX20, TX25, TX30 OG TX40."
+      ]
+   }
+]

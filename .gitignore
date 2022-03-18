@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# ignoring extensions
+.DS_Store
+*.pyc
+*.egg-info
+*.xlsx
+
+# ignoring files
+credentials.json
+localdev-config.json
+
+# ignoring folders
+server/localdev-config.json
+server/services/sportscode
+
+# Flask stuff:
+instance/
+.webassets-cache

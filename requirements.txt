@@ -1,0 +1,7 @@
+setuptools
+python-decouple
+psycopg2-binary
+fastapi
+uvicorn
+requests
+selenium

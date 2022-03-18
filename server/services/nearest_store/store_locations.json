@@ -1,0 +1,23 @@
+[
+   {
+      "1":{
+         "name":"Bauhaus Aalborg",
+         "lat":56.6352382,
+         "lon":9.1404871
+      }
+   },
+   {
+      "2":{
+         "name":"Bauhaus Aarhus",
+         "lat":56.1836560,
+         "lon":10.097648
+      }
+   },
+   {
+      "3":{
+         "name":"Bauhaus Copenhagen",
+         "lat":55.649333,
+         "lon":12.5161033
+      }
+   }
+]

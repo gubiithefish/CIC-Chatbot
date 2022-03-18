@@ -1,0 +1,36 @@
+[
+   {
+      "tag":"hilsen - velkommen",
+      "patterns":[
+         "halløj",
+         "hey",
+         "hej",
+         "hey",
+         "goddav",
+         "dav",
+         "goddag",
+         "hejsa",
+         "mojn",
+         "vær hilset",
+         "Halløjsa",
+         "velkommen"
+      ],
+      "responses":[
+         "Hej med dig!:-), kan jeg hjælpe med noget?"
+      ]
+   },
+   {
+      "tag":"Intro - Hvad laver du",
+      "patterns":[
+         "laver du?",
+         "laver du",
+         "skal du lave i dag?",
+         "laver du til daglig?"
+      ],
+      "responses":[
+         "Lige nu skriver jeg med dig. Bagefter med en anden... Jeg er ikke til at stoppe!",
+         "Jeg sidder lige og nyder en god kop digital kaffe.",
+         "Jeg lytter til, hvad du skriver, og hjælper så godt jeg kan. :-)"
+      ]
+   }
+]
