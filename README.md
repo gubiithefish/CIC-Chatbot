@@ -1,7 +1,7 @@
 # CIC - Chatbot project
 ## Table of content:
 - [Installation](#Installation)
-- [Reflections](#Reflections)
+- [Reflections](#reflections-over-things-that-could-be-improved)
 - [Chatbot Case Study](#chatbot-case-study)
 
 <table>
