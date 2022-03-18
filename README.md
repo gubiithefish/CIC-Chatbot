@@ -2,7 +2,7 @@
 ## Table of content:
 - [Installation](#Installation)
 - [Reflections](#Reflections)
-- [Chatbot Case Study](#Chatbot)
+- [Chatbot Case Study](#chatbot-case-study)
 
 <table>
   <tr>
