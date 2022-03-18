@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td><img src="img/Index.png" width="100%" /></td>
-    <td><img src="img/Swagger.png" width="94%" /></td>
+    <td><img src="img/Swagger.png" width="93%" /></td>
   </tr>
  </table>
 
