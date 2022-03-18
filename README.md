@@ -10,7 +10,7 @@
     <td align="middle">Swagger page - <br>http://127.0.0.1:8000/docs </td>
   </tr>
   <tr>
-    <td><img src="img/index.png" width="100%" /></td>
+    <td><img src="img/Index.png" width="100%" /></td>
     <td><img src="img/Swagger.png" width="100%" /></td>
   </tr>
  </table>
